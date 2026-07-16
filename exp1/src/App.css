@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f6fb;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 30px 15px;
+}
+
+.composer {
+  max-width: 750px;
+  margin: auto;
+  padding: 28px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 6px;
+  color: #1d4ed8;
+}
+
+.subtitle {
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: vertical;
+}
+
+.total-count {
+  font-weight: bold;
+}
+
+.platforms {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.platform-card {
+  display: flex;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.platform-card small {
+  display: block;
+  margin-top: 4px;
+  color: #64748b;
+}
+
+.success {
+  color: green !important;
+}
+
+.error,
+.warning {
+  color: #dc2626 !important;
+  font-weight: bold;
+}
+
+.media-label {
+  display: block;
+  margin-top: 22px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.media-name {
+  color: #2563eb;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 13px;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+.preview {
+  margin-top: 25px;
+  padding: 18px;
+  background: #eff6ff;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .platforms {
+    grid-template-columns: 1fr;
+  }
+
+  .composer {
+    padding: 20px;
+  }
+}
