@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addPost } from "../redux/postsSlice";
+import { addPost } from "../features/postsSlice";
 
 function AddPost() {
 

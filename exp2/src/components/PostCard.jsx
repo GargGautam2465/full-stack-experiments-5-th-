@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { deletePost } from "../redux/postsSlice";
+import { deletePost } from "../features/postsSlice";
 
 function PostCard({ post }) {
 
