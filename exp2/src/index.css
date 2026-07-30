@@ -59,3 +59,27 @@ button {
   margin-bottom: 15px;
   border-radius: 8px;
 }
+
+.posts-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.post-filter {
+  width: auto;
+  min-width: 170px;
+}
+
+.filter-count,
+.empty-posts {
+  color: #5f6368;
+  margin: 0 0 12px;
+}
+
+.empty-posts {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
