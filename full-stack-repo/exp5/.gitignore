@@ -1,0 +1,12 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Backend
+backend/.gradle/
+backend/build/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
